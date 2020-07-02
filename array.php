@@ -9,6 +9,7 @@
 <body>
     
     <?php
+    CONST BR= "<br/><br> <br>";
     $odd_numbers=[1,3,5,7,9];
     $i=0;
     for($i;$i<4;$i++){
@@ -16,9 +17,10 @@
     }
     $even_numbers=[0,2,4,6,8,10];
     $x=0;
+    BR;
     // unset($even_numbers[0]);
-    for($x=0;$x<5;$x++){
-        echo " <br>Even numbers are $even_numbers[$x]";
+    for($x=0;$x<7;$x++){
+        echo " $even_numbers[$x]";
     }
     echo '<br>count of the even numbers is '.count($even_numbers);
     echo"<hr>";

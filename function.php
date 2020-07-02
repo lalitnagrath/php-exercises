@@ -7,6 +7,24 @@
     <title>php Function example</title>
 </head>
 <body>
+
+<?php
+const BR= "<br/>";
+
+function multiply($one ,$two){
+    echo $one * $two;
+}
+
+multiply(4,9);
+echo BR;
+
+    function add($arg1,$arg2){
+        return $arg1+$arg2;
+    }
+     echo add(2,3);
+
+?>
+
     
 </body>
 </html>
