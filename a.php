@@ -80,6 +80,16 @@ $office= array('Sector 82','phase 9','WFH');
 
     print_r($years);
 
+
+    //associatiove arrays 
+
+    $arr = array('laliz','kunal','shaviz','rohit','sauba','depika');
+    $assoc= array('a1' =>'800-820','a2'=>'821-840','a3'=>'841-860');
+
+    foreach ($assoc as $a=>$y){
+        echo $a . ' '. $y .'<br>';
+    }
+
     ?>
 </body>
 </html>
