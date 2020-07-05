@@ -14,12 +14,15 @@
         public function helloPerson() {
             return "Hello My Name is ". $this->firstName. ' '. $this->lastName;
         }
+        public function getGender(){
+            return $this->gender;
+        }
 
     }
 
     $lalit =new person('Lalit','Nagrath','M');
 
-    echo $lalit->helloPerson();
+    echo $lalit->helloPerson() . " Gender is ". $lalit->getGender();
 
 
 ?>
